@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=Displays Zerotier Network Members
+Icon=/home/uur/Desktop/zerotier widget/zerotierIndicator/logo.png
+Name=Zerotier Indicator
+Type=Service
+X-KDE-PluginInfo-Author=Duoslow
+X-KDE-PluginInfo-Category=Online Services
+X-KDE-PluginInfo-Email=heniugur@gmail.com
+X-KDE-PluginInfo-License=WTFPL
+X-KDE-PluginInfo-Name=org.github.duoslow.zerotierindicator
+X-KDE-PluginInfo-Version=1
+X-KDE-PluginInfo-Website=https://github.com/Duoslow/zerotierindicator
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
