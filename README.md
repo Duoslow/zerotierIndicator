@@ -5,6 +5,15 @@
 - Show online member count on icon
 - Click to copy zerotier ip 
 - Updates members status on intervals  
+## BUG
+### if plasmoid package does nothing please use this command 
+```bash
+install
+kpackagetool5 -t Plasma/Applet --install zerotier.plasmoid    
+remove
+kpackagetool5 -t Plasma/Applet --remove zerotier.plasmoid    
+
+```
 ## TODO
 - Multiple network selection
 - Network information
