@@ -29,9 +29,14 @@ noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
 
+build(){
+	cd zerotierIndicator
+	chmod +x build.sh
+	./build.sh
+}
+
 package() {
 	cd zerotierIndicator
 	chmod +x install.sh
 	./install.sh
-	printf "zerotier indicator installed add widget"
 }
