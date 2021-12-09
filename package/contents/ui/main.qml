@@ -33,7 +33,7 @@ Item {
 			}
 		}
 		xhr.onerror = function(e) {
-			console.log("Error executing the request: network error");
+			console.log("Error executing the request: network error"); 
             retryConnection.restart();
 		}
 		if (options.responseType) xhr.responseType = options.responseType;
