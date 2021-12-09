@@ -1,6 +1,6 @@
 [Desktop Entry]
 Comment=Displays Zerotier Network Members
-Icon=preferences-system-network-server
+Icon=preferences-system-network-server 
 Name=Zerotier Indicator
 Type=Service
 X-KDE-PluginInfo-Author=Duoslow
