@@ -13,7 +13,9 @@
 ## TODO
 - List Sorting 
 - Aur Package
-## BUG
+### Installation
+right click on dock or panel >> add widgets >> get new widgets >> Install widget from Local file >> select zerotier.plasmoid 
+or use the following command
 #### if plasmoid package does nothing please use this command 
 ```bash
 install
