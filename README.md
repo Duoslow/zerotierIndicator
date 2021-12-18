@@ -1,6 +1,6 @@
 # Zerotier KDE Widget  
 ## Displays Zerotier Network Members
-### !This is not controlling anything just shows data from API!
+### This is does not control anything just shows data from API!
 
 ### [KDE Store](https://store.kde.org/p/1666827)
 ## Features (V1.1)
