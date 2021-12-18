@@ -1,26 +1,31 @@
 # Zerotier KDE Widget  
 ## Displays Zerotier Network Members
+### !This is not controlling anything just shows data from API!
 
-## Features
+
+## Features (V1.1)
 - Show online member count on icon
 - Click to copy zerotier ip 
 - Updates members status on intervals  
+- Multiple network selection window
+- Only show online members option
+
+## TODO
+- List Sorting 
+- Aur Package
 ## BUG
-### if plasmoid package does nothing please use this command 
+#### if plasmoid package does nothing please use this command 
 ```bash
 install
 kpackagetool5 -t Plasma/Applet --install zerotier.plasmoid    
 remove
 kpackagetool5 -t Plasma/Applet --remove zerotier.plasmoid    
-
 ```
-## TODO
-- Multiple network selection
-- Network information
-- Fix first time setup 
+
 ## Widget GUI and Indicator
-![ex](https://i.imgur.com/BOxvfBb.png)
+![ex](https://i.imgur.com/MYQDika.png)![a](https://i.imgur.com/y92VmYu.png)
+
 ## Settings
-![settings](https://i.imgur.com/zi2Z6G0.png)
-## Widgets panel
-![inf](https://i.imgur.com/6yiXx7u.png)
+![settings](https://i.imgur.com/Owxf7E2.png)
+
+sorry for blurry images they're sensitive texts
