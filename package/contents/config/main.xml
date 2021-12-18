@@ -3,15 +3,18 @@
 	<kcfgfile name=""/>
 	<group name="General">
 		<entry name="updateInterval" type="Int">
-			<default>10</default>
-			<min>20</min>
-      		<max>990</max>
+			<default>1</default>
+			<min>1</min>
+      		<max>999</max>
 		</entry>
         <entry name="zerotierToken" type="String">
 			<default></default>
 		</entry>
-		<entry name="zerotiernid" type="String">
+		<entry name="selectednetwork" type="String">
 			<default></default>
+		</entry>
+		<entry name="show" type="Bool">
+			<default>false</default>
 		</entry>
 	</group>
 </kcfg>
