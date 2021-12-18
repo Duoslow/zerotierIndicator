@@ -2,7 +2,7 @@
 ## Displays Zerotier Network Members
 ### !This is not controlling anything just shows data from API!
 
-
+### [KDE Store](https://store.kde.org/p/1666827)
 ## Features (V1.1)
 - Show online member count on icon
 - Click to copy zerotier ip 
@@ -14,8 +14,9 @@
 - List Sorting 
 - Aur Package
 ### Installation
-right click on dock or panel >> add widgets >> get new widgets >> Install widget from Local file >> select zerotier.plasmoid 
-or use the following command
+https://store.kde.org/p/1666827
+or
+right click on dock or panel >> add widgets >> get new widgets >> Search Zerotier KDE widget
 #### if plasmoid package does nothing please use this command 
 ```bash
 install
@@ -30,4 +31,6 @@ kpackagetool5 -t Plasma/Applet --remove zerotier.plasmoid
 ## Settings
 ![settings](https://i.imgur.com/Owxf7E2.png)
 
+## [Please Download here](https://store.kde.org/p/1666827)
+![ph](https://i.imgur.com/OFifVXf.png)
 sorry for blurry images they're sensitive texts
