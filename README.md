@@ -9,8 +9,15 @@
 - Only show online members option
 
 ## TODO
-- Sorting system
-- Select all networks
+- Sorting system (Feature)
+- Select all networks (Feature)
+- Content auto windows height (Feature)
+- GUI width range option (Feature)
+- Sometimes after reboot have duplicate list (idk why but it gets fixed when updates the list) (BUG FIX) 
+- Change emojis to png (Improvement)
+- Network selector white theme (Improvement)
+- Update interval 30s,1min+++ (improvement)
+- Managing (create update network etc.) (Feature) 
 
 ## Installation
 There are three ways to install this widget in your KDE Plasma.
