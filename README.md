@@ -17,7 +17,7 @@
 - Change emojis to png (Improvement)
 - Network selector white theme (Improvement)
 - Update interval 30s,1min+++ (improvement)
-- Managing (create update network etc.) (Feature) 
+- ~~Managing (create update network etc.) (Feature)~~ nope authtoken.secret not accessible without root permission
 
 ## Installation
 There are three ways to install this widget in your KDE Plasma.
