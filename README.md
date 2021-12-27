@@ -20,7 +20,8 @@
 
 ## TODO (v1.3)
 - [ ] Managing (create-update network, member operations,etc,all available API features) (Feature)
-- [ ] Network specific icon color(Feature)
+- [ ] Network specific icon color (Feature)
+- [ ] Notification (online-offline,copy)(Feature)
 
 ## Installation
 There are three ways to install this widget in your KDE Plasma.
