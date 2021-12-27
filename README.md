@@ -8,16 +8,19 @@
 - Multiple network selection window
 - Only show online members option
 
-## TODO
-- Sorting system (Feature)
-- Select all networks (Feature)
-- Content auto windows height (Feature)
-- GUI width range option (Feature)
-- Sometimes after reboot have duplicate list (idk why but it gets fixed when updates the list) (BUG FIX) 
-- Change emojis to png (Improvement)
-- Network selector white theme (Improvement)
-- Update interval 30s,1min+++ (improvement)
-- ~~Managing (create update network etc.) (Feature)~~ nope authtoken.secret not accessible without root permission
+## TODO (V1.2)
+- [ ] Sorting system (Feature) [WIP]
+- [ ] Select all networks (Feature) [WIP]
+- [ ] Context menu on icon (Feature) [WIP]
+- [ ] Content auto windows height (Feature)
+- [ ] Change emojis to png (Improvement)
+- [ ] Network selector theme fix (Improvement)
+- [ ] Update interval 30s,1min+++ (improvement)
+- [ ] Sometimes after reboot have duplicate list (idk why but it gets fixed when updates the list) (BUG) 
+
+## TODO (v1.3)
+- [ ] Managing (create-update network, member operations,etc,all available API features) (Feature)
+- [ ] Network specific icon color(Feature)
 
 ## Installation
 There are three ways to install this widget in your KDE Plasma.
@@ -32,3 +35,5 @@ kpackagetool5 -t Plasma/Applet --install zerotier.plasmoid `
 
 ## Settings
 ![settings](https://i.imgur.com/Owxf7E2.png)
+
+I don't have much time, I just look in my spare time
