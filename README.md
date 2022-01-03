@@ -10,8 +10,8 @@
 
 ## TODO (V1.2)
 - [ ] Sorting system (Feature) [WIP]
-- [ ] Select all networks (Feature) [WIP]
-- [ ] Context menu on icon (Feature) [WIP]
+- [x] Select all networks (Feature) 
+- [x] Context menu on icon (Feature) 
 - [ ] Content auto windows height (Feature)
 - [ ] Change emojis to png (Improvement)
 - [ ] Network selector theme fix (Improvement)
