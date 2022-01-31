@@ -1,6 +1,6 @@
 # Zerotier KDE Widget  
 ## This Widget Shows Zerotier Network Members
-### This widget currently does not control anything, it only displays the data received from the zerotier api.
+### I can't continue developing because I don't have time, I will be happy if you continue to develop
 ## Features (V1.1)
 - Show online member count on icon
 - Click to copy zerotier ip 
