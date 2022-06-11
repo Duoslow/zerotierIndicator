@@ -1,6 +1,6 @@
 # Zerotier KDE Widget  
 ## This Widget Shows Zerotier Network Members
-### I can't continue developing because I don't have time, I will be happy if you continue to develop
+### I can't continue developing because I don't have time
 ## Features (V1.1)
 - Show online member count on icon
 - Click to copy zerotier ip 
@@ -36,5 +36,3 @@ kpackagetool5 -t Plasma/Applet --install zerotier.plasmoid `
 
 ## Settings
 ![settings](https://i.imgur.com/Owxf7E2.png)
-
-I don't have much time, I just look in my spare time
