@@ -1,6 +1,7 @@
 # Zerotier KDE Widget  
 ## This Widget Shows Zerotier Network Members
-### I can't continue developing because I don't have time
+[![Board Status](https://dev.azure.com/duoslow/2e47cd40-813e-4ebb-ac72-0cc0e7f5a5d9/20225c50-a275-4cf8-914f-d85f24b5f075/_apis/work/boardbadge/64373e22-ee7a-49a2-be2d-934009b29264)](https://dev.azure.com/duoslow/2e47cd40-813e-4ebb-ac72-0cc0e7f5a5d9/_boards/board/t/20225c50-a275-4cf8-914f-d85f24b5f075/Microsoft.RequirementCategory/)
+### I don't have much free time but I will continue to improve 05/05/2023
 ## Features (V1.1)
 - Show online member count on icon
 - Click to copy zerotier ip 
