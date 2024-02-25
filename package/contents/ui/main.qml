@@ -6,6 +6,7 @@ import QtQuick.Controls 2.0
 import org.kde.plasma.plasmoid 2.0
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 2.0 as PlasmaComponents
+import org.kde.plasma.components 3.0 as PlasmaComponents3
 import org.kde.plasma.extras 2.0 as PlasmaExtras
 
 Item {
@@ -81,6 +82,15 @@ Item {
                     console.log("NETWORK ONLINE COUNT:",onlinecount)
                     zeroRequest("network/"+netw+"/member", function(res) { 
                         for (let dat of res) {
+                            // Subtract timestamps to determine how long ago member was seen and convert to seconds
+                            var lastseen = (dat.clock - dat.lastOnline)/1000
+                            // console.log("MEMBER LAST SEEN: ", lastseen + " seconds ago" )
+                            // If member has not been seen for more than 120 seconds, consider offline.
+                            if(lastseen < 120){
+                                dat.online = true
+                            }else{
+                                dat.online = false
+                            }
                             if (plasmoid.configuration.show){
                                 if(!dat.online){
                                     continue;}
@@ -245,7 +255,7 @@ Item {
                 }
             }
 
-        PlasmaExtras.ScrollArea {
+        PlasmaComponents3.ScrollView {
             anchors.fill: parent
 
             ListView {
