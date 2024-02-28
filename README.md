@@ -1,7 +1,7 @@
 # Zerotier KDE Widget  
 ## This Widget Shows Zerotier Network Members
-[![Board Status](https://dev.azure.com/duoslow/2e47cd40-813e-4ebb-ac72-0cc0e7f5a5d9/20225c50-a275-4cf8-914f-d85f24b5f075/_apis/work/boardbadge/64373e22-ee7a-49a2-be2d-934009b29264?columnOptions=1)](https://dev.azure.com/duoslow/2e47cd40-813e-4ebb-ac72-0cc0e7f5a5d9/_boards/board/t/20225c50-a275-4cf8-914f-d85f24b5f075/Microsoft.RequirementCategory/)
-### I don't have much free time but I will continue to improve 05/05/2023
+#### I had to stop using Linux due to school and work. yes dual boot etc. I could continue to use Linux, but I don't have time to deal with it and using Linux is time-consuming and I don't have the time to spare for it right now. That's why I can't continue developing it, I want to write it from scratch in the future. because this code is really shitty. The more I look at the code, the more I want to delete it, so I can't continue developing it right now. 
+#### 28/02/2024
 ## Features (V1.1)
 - Show online member count on icon
 - Click to copy zerotier ip 
@@ -9,20 +9,20 @@
 - Multiple network selection window
 - Only show online members option
 
-## TODO (V1.2)
-- [ ] Sorting system (Feature) [WIP]
-- [x] Select all networks (Feature) 
-- [x] Context menu on icon (Feature) 
-- [ ] Content auto windows height (Feature)
-- [ ] Change emojis to png (Improvement)
-- [ ] Network selector theme fix (Improvement)
-- [ ] Update interval 30s,1min+++ (improvement)
+## TODO (V2.0)
+- [ ] Sorting system [WIP]
+- [x] Select all networks 
+- [x] Context menu on icon 
+- [ ] Content auto windows height 
+- [ ] Change emojis to png (emoji system on kde is suck)
+- [ ] Network selector theme fix 
+- [ ] Update interval 30s,1min+++ 
 - [ ] Sometimes after reboot have duplicate list (idk why but it gets fixed when updates the list) (BUG) 
 
-## TODO (v1.3)
-- [ ] Managing (create-update network, member operations,etc,all available API features) (Feature)
-- [ ] Network specific icon color (Feature)
-- [ ] Notification (online-offline,copy)(Feature)
+## TODO (v3.0)
+- [ ] Managing (create-update network, member operations,etc,all available API features) 
+- [ ] Network specific icon color 
+- [ ] Notification (online-offline,copy)
 
 ## Installation
 There are three ways to install this widget in your KDE Plasma.
