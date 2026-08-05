@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- Zerotier mark drawn as a stroked symbolic icon so Kirigami.Icon can
+       recolor it to the panel's text color (isMask). -->
+  <g fill="none" stroke="#232629" stroke-width="1.7" stroke-linecap="round">
+    <path d="M5.6 6.6 H18.4"/>
+    <path d="M12 6.6 V18.6"/>
+    <circle cx="12" cy="13" r="4.2"/>
+  </g>
+</svg>

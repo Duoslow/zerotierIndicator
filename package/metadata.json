@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "hafikanyesilyurt@gmail.com",
+                "Name": "Hafikan"
+            },
+            {
+                "Email": "heniugur@gmail.com",
+                "Name": "Duoslow"
+            }
+        ],
+        "Category": "Online Services",
+        "Description": "Shows the Zerotier networks this machine joined and the peers it is connected to",
+        "Icon": "network-vpn",
+        "Id": "org.github.hafikan.zerotierIndicator",
+        "License": "MIT",
+        "Name": "Zerotier Indicator",
+        "Version": "2.0",
+        "Website": "https://github.com/Hafikan/zerotierIndicator"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
