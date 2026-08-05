@@ -69,11 +69,10 @@ ping is enough -- puts it there.
 
 ## Installation
 
-1. From the widget's KDE Store [page](https://store.kde.org/p/1666827):
-   `Right click on the desktop, dock or panel -> Add Widgets -> Get New Widgets
-   -> search for "Zerotier KDE Widget"`.
+1. From the KDE Store: `Right click on the desktop, dock or panel -> Add
+   Widgets -> Get New Widgets -> search for "Zerotier Indicator"`.
 2. From the `zerotier.plasmoid` file in this repo's
-   [releases](https://github.com/Duoslow/zerotierIndicator/releases/latest):
+   [releases](https://github.com/Hafikan/zerotierIndicator/releases/latest):
    `Right click on the desktop -> Add Widgets -> Install from local file`.
 3. From a checkout:
 
@@ -118,14 +117,25 @@ QT_QPA_PLATFORM=offscreen qml6 test.qml; echo "exit=$?"
 touching the panel:
 
 ```bash
-plasmawindowed org.github.duoslow.zerotierIndicator
+plasmawindowed org.github.hafikan.zerotierIndicator
 ```
+
+Publishing an update: bump `Version` in `package/metadata.json`, run
+`./build.sh`, and upload the new `zerotier.plasmoid` to the store listing. The
+store compares that version string to decide who gets an update notification.
 
 ## Version history
 
 - **v2.0** -- Ported to Plasma 6, rebuilt on the local service API, new flat UI
 - **v1.1** -- Zerotier Central API, Plasma 5
 
+## Credits
+
+Originally written by [Duoslow](https://github.com/Duoslow/zerotierIndicator)
+(Uğur Yavaş) for Plasma 5 and the Zerotier Central API. This fork carries the
+Plasma 6 port and the move to the local service API, and is published under a
+separate plugin id so both can be installed side by side.
+
 ## License
 
-MIT
+MIT -- see [LICENSE](LICENSE). The original copyright notice is retained.
