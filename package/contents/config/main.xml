@@ -2,19 +2,27 @@
 <kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
 	<kcfgfile name=""/>
 	<group name="General">
-		<entry name="updateInterval" type="Int">
-			<default>1</default>
-			<min>1</min>
-      		<max>999</max>
+		<!-- The local service API is free and instant, so polling can be far
+		     more frequent than the old Central API allowed. -->
+		<entry name="refreshSeconds" type="Int">
+			<default>10</default>
+			<min>2</min>
+			<max>3600</max>
 		</entry>
-        <entry name="zerotierToken" type="String">
+		<!-- Optional: only needed when the token file cannot be read. -->
+		<entry name="authToken" type="String">
 			<default></default>
 		</entry>
+		<!-- Comma separated network ids; empty means every joined network. -->
 		<entry name="selectednetwork" type="String">
 			<default></default>
 		</entry>
-		<entry name="show" type="Bool">
+		<entry name="showOnlyConnected" type="Bool">
 			<default>false</default>
+		</entry>
+		<!-- JSON object mapping a peer's node id to a user supplied label. -->
+		<entry name="peerNames" type="String">
+			<default>{}</default>
 		</entry>
 	</group>
 </kcfg>
